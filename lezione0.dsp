@@ -1,15 +1,14 @@
-// il testo che segue è un programma di faust 
-// questo è un commento
+// questo è un commento 
 // un commento è una riga di codice ignorata dal compilatore
-
-// faust è un linguaggio di programmazione funzionale
-// dsp = digital signatur processing 
-
-
-// importare la libreia standard di faust 
+// il testo che segue è un programma di faust 
+// faust è un linguaggio di progammazione funzionale
+// crea applicazioni per il trattamento digitale del segnale
+// dsp = digital signatur processing
+ 
 import("stdfaust.lib"); // importare la libreria standard di faust
+process = +; // in ogni rpogramma c'è un solo process = qualcosa ;
 
+//faust segue il contenuto di process
+// ogni riga deve finire con un * ; * 
 
-// ogni riga di faust termina con un carattere ;
-// gli operatori matematici sono + - * /
-process = +; // in ogni programma ci può essere un solo process = 
+// gli operatori matematici sono * + - * / *

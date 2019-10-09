@@ -3,7 +3,7 @@
 // il testo che segue è un programma di faust 
 // faust è un linguaggio di progammazione funzionale
 // crea applicazioni per il trattamento digitale del segnale
-// dsp = digital signlal processing
+// dsp = digital signal processing
  
 import("stdfaust.lib"); // importare la libreria standard di faust
 process = +; // in ogni rpogramma c'è un solo process = qualcosa ;
